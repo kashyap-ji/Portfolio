@@ -18,33 +18,33 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={Img1} alt="portfolio image 1" />
           </div>
-          <h3>Lamborghini</h3>
+          <h3>Alumni Donation Portal</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://github.com/Student-Alumni-Interaction-Linkage-IITG/DonationPortal/tree/updates" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/Student-Alumni-Interaction-Linkage-IITG/DonationPortal/tree/updates" className="btn btn-primary" target='_blank'>Website</a>
           </div>
         </artical>
         <artical className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={Img2} alt="portfolio image 1" />
           </div>
-          <h3>Ferrari</h3>
+          <h3>Senior Expert WebApp</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://github.com/kashyap-ji/SeniorExpertWebApp/tree/master" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/kashyap-ji/SeniorExpertWebApp/tree/master" className="btn btn-primary" target='_blank'>Website</a>
           </div>
         </artical>
         <artical className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={Img3} alt="portfolio image 1" />
           </div>
-          <h3>stocks</h3>
+          <h3>Product Reviwer</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target='_blank'>Github</a>
-            <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://github.com/kashyap-ji/ProductReviewer/tree/master" className="btn" target='_blank'>Github</a>
+            <a href="https://github.com/kashyap-ji/ProductReviewer/tree/master" className="btn btn-primary" target='_blank'>Website</a>
           </div>
         </artical>
-        <artical className="portfolio__item">
+        {/* <artical className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={Img4} alt="portfolio image 1" />
           </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
             <a href="https://github.com" className="btn" target='_blank'>Github</a>
             <a href="https://github.com" className="btn btn-primary" target='_blank'>Live Demo</a>
           </div>
-        </artical>
+        </artical> */}
       </div>
     </section>
   )
